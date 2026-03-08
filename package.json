@@ -1,0 +1,35 @@
+{
+  "name": "@mniebling/lint-config",
+  "version": "0.0.1",
+  "description": "My personal linting configuration",
+  "author": "Mike Niebling",
+  "main": "index.ts",
+  "license": "MIT",
+  "homepage": "https://github.com/mniebling/lint-config#readme",
+  "bugs": {
+    "url": "https://github.com/mniebling/lint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mniebling/lint-config.git"
+  },
+  "files": [
+    "index.ts"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "@stylistic/eslint-plugin": ">=5.0.0",
+    "oxlint": ">=1.0.0",
+    "oxlint-tsgolint": ">=0.0.1"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "5.10.0",
+    "oxlint": "1.51.0",
+    "oxlint-tsgolint": "0.16.0"
+  }
+}
