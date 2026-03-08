@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "My personal linting configuration",
   "author": "Mike Niebling",
+  "type": "module",
   "main": "index.ts",
   "license": "MIT",
   "homepage": "https://github.com/mniebling/lint-config#readme",
