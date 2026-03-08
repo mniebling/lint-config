@@ -1,4 +1,4 @@
-# `@mniebling/lint-config`
+# @mniebling/lint-config
 
 Autoformat on save is a useful time saver and integrating a formatter with AI tooling is very effective to get output code looking correct.
 However, Prettier is too opinionated; it wraps lines in weird ways and enforces some suboptimal patterns.
@@ -10,7 +10,11 @@ See: https://antfu.me/posts/why-not-prettier
 ## Installation
 
 ```sh
-npm install --save-dev @mniebling/lint-config oxlint oxlint-tsgolint @stylistic/eslint-plugin
+npm install --save-dev \
+  @mniebling/lint-config \
+  oxlint \
+  oxlint-tsgolint \
+  @stylistic/eslint-plugin
 ```
 
 
