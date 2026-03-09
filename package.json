@@ -4,7 +4,7 @@
   "description": "My personal linting configuration",
   "author": "Mike Niebling",
   "type": "module",
-  "main": "index.ts",
+  "main": "index.js",
   "license": "MIT",
   "homepage": "https://github.com/mniebling/lint-config#readme",
   "bugs": {
@@ -18,7 +18,7 @@
     "access": "public"
   },
   "files": [
-    "index.ts"
+    "index.js"
   ],
   "engines": {
     "node": ">=24.0.0"
