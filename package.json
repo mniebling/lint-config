@@ -5,6 +5,12 @@
   "author": "Mike Niebling",
   "type": "module",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
   "license": "MIT",
   "homepage": "https://github.com/mniebling/lint-config#readme",
   "bugs": {
@@ -18,7 +24,8 @@
     "access": "public"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "engines": {
     "node": ">=24.0.0"

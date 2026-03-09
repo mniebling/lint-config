@@ -23,6 +23,9 @@ export default defineConfig({
 			multiline: {
 				delimiter: 'none',
 			},
+			singleline: {
+				delimiter: 'comma',
+			},
 		}],
 		'@stylistic/no-extra-semi': 'error',
 		'@stylistic/no-mixed-spaces-and-tabs': 'error',
