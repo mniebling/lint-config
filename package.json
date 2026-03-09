@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/mniebling/lint-config.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "index.ts"
   ],
