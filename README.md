@@ -1,5 +1,7 @@
 # @mniebling/lint-config
 
+[![npm](https://img.shields.io/npm/v/@mniebling/lint-config)](https://www.npmjs.com/package/@mniebling/lint-config)
+
 Autoformat on save is a useful time saver and integrating a formatter with AI tooling is very effective to get output code looking correct.
 However, Prettier is too opinionated; it wraps lines in weird ways and enforces some suboptimal patterns.
 This tradeoff is tolerable for writing code on a large team, but not for working on my personal projects.
