@@ -3,6 +3,7 @@ import type { Config } from 'release-it'
 export default {
 	git: {
 		requireCleanWorkingDir: false,
+		tagName: 'v${version}',
 	},
 	github: {
 		release: true,
