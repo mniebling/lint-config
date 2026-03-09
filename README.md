@@ -33,6 +33,28 @@ export default defineConfig({
 })
 ```
 
+Add the lint command to the `scripts` field in `package.json`:
+
+```json
+"lint": "oxlint",
+```
+
+For VSCode, set up auto fix on save in `.vscode/settings.json`.
+Here's that setting and the others I typically use:
+
+```json
+"editor.codeActionsOnSave": {
+	"source.fixAll.oxc": "explicit",
+	"source.organizeImports": "explicit"
+},
+"js/ts.tsdk.path": "node_modules/typescript/lib"
+```
+
+Install the VSCode extension if needed: [oxc.oxc-vscode](https://marketplace.visualstudio.com/items?itemName=oxc.oxc-vscode)
+
+
+## Extending the configuration
+
 Project-specific rules can be added alongside `extends` and will override the shared config:
 
 ```ts
