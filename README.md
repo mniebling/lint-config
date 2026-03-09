@@ -29,7 +29,7 @@ import myConfig from '@mniebling/lint-config'
 import { defineConfig } from 'oxlint'
 
 export default defineConfig({
-  extends: [myConfig],
+	extends: [myConfig],
 })
 ```
 
@@ -40,10 +40,10 @@ import myConfig from '@mniebling/lint-config'
 import { defineConfig } from 'oxlint'
 
 export default defineConfig({
-  extends: [myConfig],
-  rules: {
-    'no-console': 'warn',
-  },
+	extends: [myConfig],
+	rules: {
+		'no-console': 'warn',
+	},
 })
 ```
 
