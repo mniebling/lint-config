@@ -1,6 +1,6 @@
 {
   "name": "@mniebling/lint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "My personal linting configuration",
   "author": "Mike Niebling",
   "type": "module",
