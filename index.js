@@ -52,6 +52,7 @@ export default defineConfig({
 			catch: 'always',
 			named: 'never',
 		}],
+		'@stylistic/space-in-parens': 'error',
 		'@stylistic/type-annotation-spacing': 'error',
 		'@stylistic/type-generic-spacing': 'error',
 	},
