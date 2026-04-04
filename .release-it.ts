@@ -7,6 +7,7 @@ export default {
 	},
 	github: {
 		release: true,
+		releaseName: '${version}',
 		web: true, // Open a browser to edit the GitHub release (and clean up the changelog!)
 	},
 	npm: {
