@@ -40,7 +40,30 @@ export default defineConfig({
 		'@stylistic/indent': ['error', 'tab'],
 		'@stylistic/key-spacing': 'error',
 		'@stylistic/keyword-spacing': 'error',
-		'@stylistic/object-curly-spacing': ['error', 'always'],
+		'@stylistic/list-style': ['error', {
+			overrides: {
+				'{}': {
+					singleLine: {
+						spacing: 'always',
+					},
+				},
+				'()': {
+					singleLine: {
+						spacing: 'never',
+					},
+				},
+				'[]': {
+					singleLine: {
+						spacing: 'never',
+					},
+				},
+				'<>': {
+					singleLine: {
+						spacing: 'never',
+					},
+				},
+			},
+		}],
 		'@stylistic/quotes': ['error', 'single', {
 			allowTemplateLiterals: 'always',
 			avoidEscape: true,

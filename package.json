@@ -1,49 +1,49 @@
 {
-  "name": "@mniebling/lint-config",
-  "version": "0.4.0",
-  "description": "My personal linting configuration",
-  "author": "Mike Niebling",
-  "type": "module",
-  "main": "index.js",
-  "exports": {
-    ".": {
-      "types": "./index.d.ts",
-      "default": "./index.js"
-    }
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/mniebling/lint-config#readme",
-  "bugs": {
-    "url": "https://github.com/mniebling/lint-config/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mniebling/lint-config.git"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
-  "engines": {
-    "node": ">=24.0.0"
-  },
-  "scripts": {
-    "lint": "oxlint",
-    "release": "release-it",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "peerDependencies": {
-    "@stylistic/eslint-plugin": ">=5.0.0",
-    "oxlint": ">=1.0.0",
-    "oxlint-tsgolint": ">=0.0.1"
-  },
-  "devDependencies": {
-    "@stylistic/eslint-plugin": "5.10.0",
-    "oxlint": "1.58.0",
-    "oxlint-tsgolint": "0.19.0",
-    "release-it": "19.2.4"
-  }
+	"name": "@mniebling/lint-config",
+	"version": "0.4.0",
+	"description": "My personal linting configuration",
+	"author": "Mike Niebling",
+	"type": "module",
+	"main": "index.js",
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"default": "./index.js"
+		}
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/mniebling/lint-config#readme",
+	"bugs": {
+		"url": "https://github.com/mniebling/lint-config/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mniebling/lint-config.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"engines": {
+		"node": ">=26.0.0"
+	},
+	"scripts": {
+		"lint": "oxlint",
+		"release": "release-it",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"peerDependencies": {
+		"@stylistic/eslint-plugin": ">=6.0.0",
+		"oxlint": ">=1.55.0",
+		"oxlint-tsgolint": ">=7.0.2008"
+	},
+	"devDependencies": {
+		"@stylistic/eslint-plugin": "6.0.1",
+		"oxlint": "1.95.0",
+		"oxlint-tsgolint": "7.0.2008",
+		"release-it": "21.1.3"
+	}
 }
