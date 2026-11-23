@@ -29,7 +29,7 @@ import myConfig from '@mniebling/lint-config'
 import { defineConfig } from 'oxlint'
 
 export default defineConfig({
-	extends: [myConfig],
+  extends: [myConfig],
 })
 ```
 
@@ -44,8 +44,8 @@ Here's that setting and the others I typically use:
 
 ```json
 "editor.codeActionsOnSave": {
-	"source.fixAll.oxc": "explicit",
-	"source.organizeImports": "explicit"
+  "source.fixAll.oxc": "explicit",
+  "source.organizeImports": "explicit"
 },
 "js/ts.tsdk.path": "node_modules/typescript/lib"
 ```
@@ -62,10 +62,10 @@ import myConfig from '@mniebling/lint-config'
 import { defineConfig } from 'oxlint'
 
 export default defineConfig({
-	extends: [myConfig],
-	rules: {
-		'no-console': 'warn',
-	},
+  extends: [myConfig],
+  rules: {
+    'no-console': 'warn',
+  },
 })
 ```
 
